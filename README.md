@@ -7,7 +7,7 @@ Each video replays one full day (24 h) of simulated barn cleaning, compressed in
 
 ## Video Layout and Labels
 
-Each video has six panels, one per planner: **RA-CRH (ours)**, **Greedy**, **Ponce (2025)\***, **Yazici et al. (2014)\***, **Cai et al. (2025)\*** and **Boustrophedon**. The asterisk marks our implementations of published methods.
+Each video has six panels, one per planner: **RA-CRH (ours)**, **Greedy**, **Ponce (2026)\***, **Yazici et al. (2014)\***, **Cai et al. (2025)\*** and **Boustrophedon**. The asterisk marks our implementations of published methods.
 
 Each panel contains:
 
@@ -28,7 +28,7 @@ The clips were not chosen to show the best case. For each barn, the condition sh
 ### 1. Ponce Barn B: Most Restricted Access
 
 
-https://github.com/user-attachments/assets/5dc7f3f0-2cbb-420a-8f82-8dd58f8e650c
+https://github.com/user-attachments/assets/c2edfb1e-26b6-4e45-8049-6fc5d83e8d42
 
 
 Two robots clean a barn with 175 cows in which cows frequently cut off large parts of the floor. RA-CRH is the only planner that cleans every cell at least once during the day; the baselines leave 12–21% of the floor uncleaned. RA-CRH also achieves the highest c_min (0.545 versus 0.321 for Greedy) and the lowest a95 (428.3 versus 990.4 min for Greedy).
@@ -36,7 +36,7 @@ Two robots clean a barn with 175 cows in which cows frequently cut off large par
 ### 2. Ponce Barn A
 
 
-https://github.com/user-attachments/assets/9a5d8759-8143-46fb-9b2d-6f4da56b1c04
+https://github.com/user-attachments/assets/a89bea0a-17bf-4b93-a138-6aa4d32ed214
 
 
 Three robots clean a barn with 175 cows. Five of the six planners clean the whole floor at least once, so the difference lies in how regularly the floor is cleaned. RA-CRH achieves c_min = 0.875 and a95 = 208.4 min, compared with 0.682 and 304.7 min for Greedy, and completes four whole-floor cleaning rounds against three for Greedy.
@@ -44,7 +44,7 @@ Three robots clean a barn with 175 cows. Five of the six planners clean the whol
 ### 3. Six-Row Barn
 
 
-https://github.com/user-attachments/assets/df04a152-c743-44c0-974c-8c6d6106f1e0
+https://github.com/user-attachments/assets/062eaa10-c689-4c0e-9f67-5adadd39b236
 
 
 Six robots clean a barn with 216 cows. RA-CRH cleans nearly the whole floor in every 4-h window (c_min = 0.995, compared with 0.901 for Greedy) and lowers a95 from 194.2 to 109.7 min. It completes seven whole-floor cleaning rounds against five for Greedy, at the cost of more driving (60.4 versus 45.6 robot-hours).
